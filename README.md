@@ -29,6 +29,9 @@ for every gate, and a job that fails the build if a failing fixture ever stops f
 zero-dependency static checks, plus a Playwright suite that catches what source cannot,
 whether the game throws on load, whether a control does anything, and whether the win and
 lose states are reachable.
+[**api-qa**](https://github.com/DavidFgamedev/api-qa) covers the service layer: Jest
+contract tests and a Postman collection run through Newman against a small game-services
+API, with a deliberately drifted build as the failing fixture.
 
 **Gameplay engineering.** Unreal Engine 5 in C++ and Blueprints: combat systems,
 behavior-tree AI, and Python editor tooling. A third-person hack and slash built solo,
