@@ -25,6 +25,10 @@ verification documentation the programme's release sign-off depended on.
 **Test engineering, in public.** [**site-gates**](https://github.com/DavidFgamedev/site-gates)
 is three CI gates for a static site build, with 37 tests, a passing and a failing fixture
 for every gate, and a job that fails the build if a failing fixture ever stops failing.
+[**game-qa**](https://github.com/DavidFgamedev/game-qa) is automated QA for browser games:
+zero-dependency static checks, plus a Playwright suite that catches what source cannot,
+whether the game throws on load, whether a control does anything, and whether the win and
+lose states are reachable.
 
 **Gameplay engineering.** Unreal Engine 5 in C++ and Blueprints: combat systems,
 behavior-tree AI, and Python editor tooling. A third-person hack and slash built solo,
