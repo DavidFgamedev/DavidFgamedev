@@ -32,6 +32,9 @@ lose states are reachable.
 [**api-qa**](https://github.com/DavidFgamedev/api-qa) covers the service layer: Jest
 contract tests and a Postman collection run through Newman against a small game-services
 API, with a deliberately drifted build as the failing fixture.
+[**data-qa**](https://github.com/DavidFgamedev/data-qa) validates gameplay data tables in
+Python: pytest and Hypothesis checks for schema, value ranges, cross-table references and
+balance invariants, with a broken table as the failing fixture for every check.
 
 **Gameplay engineering.** Unreal Engine 5 in C++ and Blueprints: combat systems,
 behavior-tree AI, and Python editor tooling. A third-person hack and slash built solo,
